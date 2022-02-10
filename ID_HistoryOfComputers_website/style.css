@@ -19,7 +19,7 @@ header{
     align-content: space-evenly;
     justify-content: center;
     padding: 30px 10%;
-    background-color: whitesmoke;
+    background-color: lightblue;
 }
 .nav_links {
     list-style: none;
@@ -27,7 +27,7 @@ header{
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 50px;
+    padding: 0px 70px;
 }
 
 .nav_links li a {
@@ -39,9 +39,10 @@ header{
 }
 
 button {
-    margin-left: 20px;
+    margin-left: 20%;
+    margin-top: 10%;
     padding: 9px 25px;
-    background-color: lightblue;
+    background-color: white;
     border: none;
     border-radius: 50px;
     cursor: pointer;
