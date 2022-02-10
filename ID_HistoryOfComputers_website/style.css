@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body {
+    background-image: url("https://i.imgur.com/4WdfLM3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+ 
 li,a,button {
     font-family: "Montserrat";
     font-size: 1.15vw;
@@ -10,7 +19,7 @@ header{
     align-content: space-evenly;
     justify-content: center;
     padding: 30px 10%;
-    background-color: paleturquoise;
+    background-color: whitesmoke;
 }
 .nav_links {
     list-style: none;
@@ -26,7 +35,7 @@ header{
 }
 
 .nav_links li a:hover {
-    color:white;
+    color:black;
 }
 
 button {
@@ -42,3 +51,39 @@ button {
 button:hover {
     background-color: lightpink;
 }
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  align-content: space-between;
+  justify-content: flex-start;
+  padding-left: 10%;
+  padding-right: 50%;
+}
+
+div.intro p,h1{
+  margin: 5%;
+  font-weight: bold;
+  color: black;
+  font-family: 'Rowdies', cursive;
+}
+
+div.intro{
+    margin: 30px;
+    background-color: white;
+    opacity: 0.8;
+  }
+
+  div.learning p,h1{
+    margin: 5%;
+    font-weight: bold;
+    color: black;
+    font-family: 'Rowdies', cursive;
+  }
+  
+  div.learning{
+      margin: 30px;
+      background-color: white;
+      opacity: 0.8;
+    }
