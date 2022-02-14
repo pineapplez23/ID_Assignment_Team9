@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
 body {
-    background-image: url("https://i.imgur.com/4WdfLM3.png");
+    background-image: url("https://lh3.googleusercontent.com/6MRhk2VC6Ug2S1nIbJ0yEaZQ_-0cR9TPZLKYp2KbBBQ7mV3gkE87PGbRrJjNjjqFPEOmgAUummphhK0iedrt1HoF6hpvSAhdf7dqRPgbpb97NGXjwVSuVXEoYjLG3yHy7L4A7SxU0w=w2400");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -74,17 +75,46 @@ div.intro{
     margin: 30px;
     background-color: white;
     opacity: 0.8;
+    transition: all 1s ease 1s;
   }
 
-  div.learning p,h1{
+div.learning p,h1{
     margin: 5%;
     font-weight: bold;
     color: black;
     font-family: 'Rowdies', cursive;
   }
   
-  div.learning{
+div.learning{
       margin: 30px;
       background-color: white;
       opacity: 0.8;
     }
+
+.main2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      flex-wrap: wrap;
+    }
+
+div.middle1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding-right: 40%;
+        padding-left: 5%;
+    }
+
+div.filler1{
+    opacity:0.1;
+}
+    
+div.middle1_text{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+}
