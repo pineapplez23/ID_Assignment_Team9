@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
-    background-image: url("https://i.imgur.com/4WdfLM3.png");
+    background-image: url("https://lh3.googleusercontent.com/6MRhk2VC6Ug2S1nIbJ0yEaZQ_-0cR9TPZLKYp2KbBBQ7mV3gkE87PGbRrJjNjjqFPEOmgAUummphhK0iedrt1HoF6hpvSAhdf7dqRPgbpb97NGXjwVSuVXEoYjLG3yHy7L4A7SxU0w=w2400");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
  }
  
 li,a,button {
-    font-family: "Montserrat";
-    font-size: 1.15vw;
-    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.75vw;
+    color: black;
     text-decoration: none;
+    font-weight: 700;   
 }
 
 header{
@@ -19,7 +22,7 @@ header{
     align-content: space-evenly;
     justify-content: center;
     padding: 30px 10%;
-    background-color: lightblue;
+    background-color: rgb(31, 207, 219);
 }
 .nav_links {
     list-style: none;
@@ -74,17 +77,179 @@ div.intro{
     margin: 30px;
     background-color: white;
     opacity: 0.8;
+    transition: all 1s ease 1s;
   }
 
-  div.learning p,h1{
+div.learning p,h1{
     margin: 5%;
     font-weight: bold;
     color: black;
     font-family: 'Rowdies', cursive;
   }
   
-  div.learning{
+div.learning{
       margin: 30px;
       background-color: white;
       opacity: 0.8;
     }
+
+.main2{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      flex-wrap: wrap;
+    }
+
+div.middle1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        padding-right: 40%;
+        padding-left: 5%;
+    }
+
+div.filler_right{
+    opacity:0.1;
+}
+
+div.filler_left{
+    opacity:0.1;
+}
+    
+div.middle1_text{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+div.middle2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-right: 5%;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+
+div.middle2_text{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+div.middle3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-right: 20%;
+    padding-inline: 2%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+div.middle3_text{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+.z1{ 
+    width: auto;
+    height: 90%;  
+}
+
+div.middle4{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-right: 5%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+div.middle4_text{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+.Collossus{
+    width:auto;
+    height: 100%;
+}
+
+div.middle5{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-right: 40%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+div.middle5_text{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+    align-content: center;
+    text-align: center;
+}
+
+.question{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    font-weight: 600;
+  }
+.answers {
+      margin-bottom: 20px;
+  }
+#submit{
+    padding-right: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #297;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+#submit:hover{
+    background-color: #3a8;
+  }
+
+div.quiz1{
+    background-color: rgb(207, 207, 207);
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+div.quiz_top{
+    background-color: white;
+    text-align: center;
+}
+
+div.quiz_top p{
+    opacity: 0;
+}
