@@ -1,23 +1,53 @@
 var myQuestions = [
     {
-      question: "What is the world first programmable computer?",
+      question: "What widely considered as the world’s first digital Computer?",
       answers: {
-        a: 'M1',
-        b: 'Z1',
-        c: 'Macbook',
-        d: 'Colossus',
+        a: 'Atanasoff-Berry Computer (ABC)',
+        b: 'The Colossus',
+        c: 'The Z1',
+        d: 'The ENIAC',
+      },
+      correctAnswer: 'd'
+    },
+    {
+      question: "When was Apple Founded?",
+      answers: {
+        a: '1 April 1976',
+        b: '31 January 1976',
+        c: '11 September 1975',
+        d: '7 February 1976',
+      },
+      correctAnswer: 'a'
+    },
+    {
+      question: "What year was the first “Laptop” Sold?",
+      answers: {
+        a: '1984',
+        b: '1985',
+        c: '1983',
+        d: '1984',
+      },
+      correctAnswer: 'c'
+    },
+    {
+      question: "What was the original name for Google?",
+      answers: {
+        a: 'Alphabet',
+        b: 'BackRub',
+        c: 'Googol',
+        d: 'Googolplex',
       },
       correctAnswer: 'b'
     },
     {
-      question: "Who developed the first digital computer?",
+      question: "The first product sold by Steve Jobs after his return",
       answers: {
-        a: 'John Vincent Atanasoff and Cliff Berry',
-        b: 'Konrad Zuse',
-        c: 'Charles Babbage',
-        d: 'Tommy Flowers and Sidney Broadhurst',
+        a: 'IPhone',
+        b: 'Macbook Air',
+        c: 'IMac',
+        d: 'Apple G5',
       },
-      correctAnswer: 'a'
+      correctAnswer: 'b'
     }
   ];
   

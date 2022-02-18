@@ -370,7 +370,9 @@ div.quiz_top p{
 
 
 .mySlides {
-  display: none;
+  display: flex;
+  flex-direction: column;
+
 }
 
 
@@ -436,6 +438,15 @@ div.quiz_top p{
   background-color: #717171;
 }
 
+.caption-container {
+    text-align: center;
+    background-color: white;
+    padding: 50px 16px;
+}
+
+lottie-player {
+    margin: 0 auto;
+}
 
 
 
