@@ -5,23 +5,32 @@ Our project is to create a website about the hisory of computers. Starting from 
 We documented each notable advancement in technology from the first ideas of computers to the first chip sets to the first Apple Computer uptill the present day. Th Objective is to spread knowledge about the devices we rely on daily for our entertainment, work and studies. How they came about and who and what made them possible etc.
 
 Design Process
--
+From the beginning, we wanted to make the website to look good but not overly complicated. So we used some of the codes in out first assignment but made some tweaks to it like make it look nicer or make the layout smoother and less messy. We also wanted to use some javascript to help us with the lessons, as using HTML only makes it quite hard to have a nice layout. So this is where the slideshow comes in. Not only does it help to put 17 different slides into one interactive place, it allows us to do so without making a very long webpage, which would look ugly and boring. Lastly for the quiz, we also used a javascript file to help out with the quiz, which allows users to see their score in real time as well as some design to it. 
 
 Features
--
+- Introduction page with our intro and main learning objective of our website.
+- a 1837 - 1986 page with all the historical landmarks of computers that took place between 1837 - 1986 listed in that page.
+- a 1986 - present page with all the important stuff that took place within 1986 to now all listed down with some basic background text at the    bottom, used a slideshow to show all the different stuff since there are alot of them.
+- a quiz made using javascript to test users knowledge.
+- lottie animation for thank you animation for users who visit our website.
 
 Exsisting 
--
+- a navigation bar to allow users to go to the different tabs as and when they want.
+- slideshow made using javascript for putting alot of content into a small area of the website to make it look neat and not too long so as to not bore the user.
+- quiz made using javascript to test the users knowledge since we made a educational website so a test is our form of gamification.
 
 Features left to be implemented
--
+- An api feature that allows users to write their name, email and issue about our website and transfers the data keyed in into an api.
 
 Technologies used
 
 - Javascript
+- lottie animation
 
 Testing
--
+- test the nav bar to make sure that it leads you to the right place
+- test the dots and  the slideshow itself to make sure that it leads to the right slides respectively
+- test the quiz to make sure the colors change according to if its correct or wrong
 
 Credits
 
@@ -79,6 +88,10 @@ Ipad 1- https://i.insider.com/4b609a2c00000000005c83d4?width=1000&format=jpeg&au
 Raspberry Pie Computer- https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg
 
 HTML 5- https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png
+
+background - https://media.istockphoto.com/photos/binary-code-background-picture-id1046046242?k=20&m=1046046242&s=612x612&w=0&h=apJ_o7CcL423oInX9e64SQgngbLmoPU2wfxlJ0MGeAI=
+
+mordern computer - https://cdn.mos.cms.futurecdn.net/jU8HAQWqxPMgH3g6qSbA5-1024-80.jpg.webp
 
 
 
